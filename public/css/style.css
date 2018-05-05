@@ -133,8 +133,12 @@ a:hover{
 	padding-bottom: 60px;
 }
 img{
-	max-width:100%; 
+	width:auto; 
 	height: auto;
+}
+.navbar-brand > img {
+	width: 50px;
+	height: 50px;
 }
 .section-text{
 	max-width: 600px;
@@ -233,12 +237,12 @@ img{
 }
 .box-site{
 	min-height: 100%;
-	border:22px solid #fff;
+	/* border:22px solid #fff; */
 	overflow: hidden!important;
 }
 .box-site .navbar-custom.affix{
-	border:solid #fff;
-	border-width:0 22px;
+	/* border:solid #fff;
+	border-width:0 22px; */
 }
 .swiper-container{
 	position: relative;
@@ -639,7 +643,7 @@ a[class*="grdnt-"]:hover, button[class*="grdnt-"]:hover{
 }
 .img-pre{
 	width: 100vw;
-	margin-top: 50px;
+	margin-top: 140px;
 }
 .img-pre img{
 	width: auto;
@@ -1346,7 +1350,7 @@ div[class*="style-"].footer-wrapper, [class*="style-"].footer-wrapper{
 		max-width: 100%;
 	}
 	.box-site {
-		border: 10px solid #fff;
+		/* border: 10px solid #fff; */
 	}
 	.box-site .navbar-custom.affix {
 		border-width: 0 10px;
