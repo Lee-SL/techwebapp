@@ -39,7 +39,20 @@
       <p>Commit test using Travis CI</p>
     </div>
     <p id="load">Firebase SDK Loading&hellip;</p>
-
+    <!-- initialise firebase -->
+    <script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyCtaB4b18r8KerbVdzYyrsJjA_6_1R8Sh0",
+        authDomain: "techjobmentorwebsite.firebaseapp.com",
+        databaseURL: "https://techjobmentorwebsite.firebaseio.com",
+        projectId: "techjobmentorwebsite",
+        storageBucket: "techjobmentorwebsite.appspot.com",
+        messagingSenderId: "927166009758"
+      };
+      firebase.initializeApp(config);
+    </script>
     <script>
       document.addEventListener('DOMContentLoaded', function() {
         // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
