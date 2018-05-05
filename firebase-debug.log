@@ -1,0 +1,13 @@
+[debug] [2018-05-05T09:49:05.958Z] ----------------------------------------------------------------------
+[debug] [2018-05-05T09:49:05.960Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-05-05T09:49:05.960Z] CLI Version:   3.18.4
+[debug] [2018-05-05T09:49:05.960Z] Platform:      darwin
+[debug] [2018-05-05T09:49:05.961Z] Node Version:  v9.2.0
+[debug] [2018-05-05T09:49:05.961Z] Time:          Sat May 05 2018 19:49:05 GMT+1000 (AEST)
+[debug] [2018-05-05T09:49:05.961Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-05T09:49:05.971Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-05T09:49:05.971Z] > authorizing via signed-in user
+[debug] [2018-05-05T09:49:05.973Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/techjobmentorwebsite  
+  
+ Sat May 05 2018 19:49:05 GMT+1000 (AEST)
