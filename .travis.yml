@@ -1,11 +1,5 @@
-language: node_js
-node_js:
- — "7"
-script:
- — echo "Deploy!!"
-install:
- — npm install -g firebase-tools
 deploy:
   provider: firebase
-  token: $FIREBASE_TOKEN
-  message: "Successfully Deployed"
+  token:
+    secure: "cRODhRWHw9e3Tp8HHgFayo2i+pQrMaMC6p7EAG/+pAvyW2UlN9+7Qv7x9boG4lvRG7ViMRFdxUt75kr0M9gW1f8yaRK4gelAMb6foXbH1oj/QdqAt0kWS7LzV8neC3gRvbMCdQQucBmcm5kDNmiiSeS2m6b/tDKw1yT3BFkYRG1iEREDE9QaqARmaFBN+nMyLu9EdKYioTduxLZDP36wwrb1gOf1SFgLx0fjS4VcGtjY4/Z/TgqqmBCTOJUbXrgVrVnG/FHA5NtxYJnH5lXFDuzwLiz7FtcsNQ7DwusJAfKDQIwtA3gzr9cYZv5toSzs61zS38EVbISJ0iUNTGL1Sww9HIB51frXY9cQuDp3cchIZy53WbZZuJZp4f+VJiciXcxVo1494YQ21L9z+3e3Bcz7yR20A+4fp6FuIPa5BrNTtzMhTFqcUkjs8TxLhM67fKobR5k2ZNaPFgaljkzHoun4z4ZLQ7vTs+BMbiX+DaPRK43zC9ZMCpXXHMUd1GA9xETFJViwkv9YjvBnBKle6ZCUJXAKzB3W/kkiKzBWVpMWX9yJeGDATQBEkcLalKWvTkq1fR8N5kvPfRGAVRny2YvH2PHi1InkPSpMMmG0tV58hwe8TUEOpGPWVlXZh0/MdtACQi6Dg0qRmndxHqE1QtCI8l+hzJyeo59v8MON2co="
+  message: Successfully Deployed
