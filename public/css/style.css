@@ -1524,10 +1524,9 @@ div[class*="style-"].footer-wrapper, [class*="style-"].footer-wrapper{
 
 /* Custom, iPhone Retina */ 
 @media only screen and (max-width : 360px) {
-	.navbar-brand img{
-		width: 120px;
-		margin-top: 8px;
-		margin-bottom: 8px;
+	.navbar-brand > img {
+		width: 50px;
+		height: 50px;
 	}
 	.img-set.one img:nth-child(2), .img-set.one img:nth-child(3), .img-set.one img:nth-child(4){
 		left: 60%;
