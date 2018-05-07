@@ -35,7 +35,7 @@
 	if(quoteCarousel.length > 0){
 		quoteCarousel.owlCarousel({
 			loop:true,
-			autoplay:true,
+			autoplay:false,
 			autoplayTimeout:2500,
 			margin: 30,
 			nav: false,
